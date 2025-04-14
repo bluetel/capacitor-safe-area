@@ -38,8 +38,7 @@
     "docgen": "docgen --api SafeAreaPlugin --output-readme README.md --output-json dist/docs.json",
     "build": "npm run clean && npm run docgen && tsc && rollup -c rollup.config.mjs",
     "clean": "rimraf ./dist",
-    "watch": "tsc --watch",
-    "prepublishOnly": "npm run build"
+    "watch": "tsc --watch"
   },
   "devDependencies": {
     "@capacitor/android": "^7.0.0",
