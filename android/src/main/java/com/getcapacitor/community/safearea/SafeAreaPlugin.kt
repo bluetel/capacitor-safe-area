@@ -5,7 +5,7 @@ import com.getcapacitor.PluginCall
 import com.getcapacitor.PluginMethod
 import com.getcapacitor.annotation.CapacitorPlugin
 
-@CapacitorPlugin(name = "SafeArea")
+@CapacitorPlugin(name = "BluetelSafeArea")
 class SafeAreaPlugin : Plugin() {
     private var implementation: SafeArea? = null
 

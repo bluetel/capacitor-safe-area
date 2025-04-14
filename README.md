@@ -1,16 +1,16 @@
 <p align="center"><br><img src="https://user-images.githubusercontent.com/236501/85893648-1c92e880-b7a8-11ea-926d-95355b8175c7.png" width="128" height="128" /></p>
 <h3 align="center">Safe Area</h3>
-<p align="center"><strong><code>@capacitor-community/safe-area</code></strong></p>
+<p align="center"><strong><code>@bluetel/capacitor-safe-area</code></strong></p>
 <p align="center">
   Capacitor Plugin that exposes the safe area insets from the native iOS/Android device to your web project.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/maintenance/yes/2025?style=flat-square" />
-  <a href="https://www.npmjs.com/package/@capacitor-community/safe-area"><img src="https://img.shields.io/npm/l/@capacitor-community/safe-area?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@bluetel/capacitor-safe-area"><img src="https://img.shields.io/npm/l/@bluetel/capacitor-safe-area?style=flat-square" /></a>
 <br>
-  <a href="https://www.npmjs.com/package/@capacitor-community/safe-area"><img src="https://img.shields.io/npm/dw/@capacitor-community/safe-area?style=flat-square" /></a>
-  <a href="https://www.npmjs.com/package/@capacitor-community/safe-area"><img src="https://img.shields.io/npm/v/@capacitor-community/safe-area?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@bluetel/capacitor-safe-area"><img src="https://img.shields.io/npm/dw/@bluetel/capacitor-safe-area?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@bluetel/capacitor-safe-area"><img src="https://img.shields.io/npm/v/@bluetel/capacitor-safe-area?style=flat-square" /></a>
 </p>
 
 ## Introduction
@@ -85,7 +85,7 @@ This plugin, therefore, also provides utilities for styling those system bars an
 ## Installation
 
 ```bash
-npm install @capacitor-community/safe-area
+npm install @bluetel/capacitor-safe-area
 npx cap sync
 ```
 
@@ -98,7 +98,7 @@ This plugin can be enabled either by using the API or by using the Configuration
 #### Enable by using the API
 
 ```ts
-import { SafeArea } from '@capacitor-community/safe-area';
+import { SafeArea } from '@bluetel/capacitor-safe-area';
 
 SafeArea.enable({
   config: {
@@ -120,7 +120,7 @@ See the [Configuration documentation below](#examples) for examples.
 > you should still import the plugin like so:
 >
 > ```ts
-> import '@capacitor-community/safe-area';
+> import '@bluetel/capacitor-safe-area';
 > ```
 
 ### Using the CSS variables
@@ -155,7 +155,7 @@ Or maybe you want to do something like this:
 This plugin can be used in an SSR environment. But you should manually call `initialize` like so:
 
 ```ts
-import { initialize } from '@capacitor-community/safe-area';
+import { initialize } from '@bluetel/capacitor-safe-area';
 
 initialize();
 ```
@@ -261,7 +261,7 @@ In `capacitor.config.json`:
 In `capacitor.config.ts`:
 
 ```ts
-/// <reference types="@capacitor-community/safe-area" />
+/// <reference types="@bluetel/capacitor-safe-area" />
 
 import { CapacitorConfig } from '@capacitor/cli';
 

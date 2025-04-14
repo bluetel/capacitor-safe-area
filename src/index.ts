@@ -2,7 +2,7 @@ import { registerPlugin } from '@capacitor/core';
 
 import type { SafeAreaPlugin } from './definitions';
 
-const SafeArea = registerPlugin<SafeAreaPlugin>('SafeArea', {
+const SafeArea = registerPlugin<SafeAreaPlugin>('BluetelSafeArea', {
   web: () => import('./web').then((m) => new m.SafeAreaWeb()),
 });
 
