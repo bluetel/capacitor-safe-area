@@ -98,9 +98,9 @@ This plugin can be enabled either by using the API or by using the Configuration
 #### Enable by using the API
 
 ```ts
-import { SafeArea } from '@bluetel/capacitor-safe-area';
+import { BluetelSafeArea } from '@bluetel/capacitor-safe-area';
 
-SafeArea.enable({
+BluetelSafeArea.enable({
   config: {
     customColorsForSystemBars: true,
     statusBarColor: '#00000000', // transparent
@@ -245,7 +245,7 @@ In `capacitor.config.json`:
 ```json
 {
   "plugins": {
-    "SafeArea": {
+    "BluetelSafeArea": {
       "enabled": true,
       "customColorsForSystemBars": true,
       "statusBarColor": '#000000',
@@ -267,7 +267,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   plugins: {
-    SafeArea: {
+    BluetelSafeArea: {
       enabled: true,
       customColorsForSystemBars: true,
       statusBarColor: '#000000',

@@ -60,7 +60,7 @@ declare module '@capacitor/cli' {
     /**
      * For ease of use and speed, these configuration values are available:
      */
-    SafeArea?: {
+    BluetelSafeArea?: {
       /**
        * Flag indicating whether of not the plugin should be enabled from startup.
        *
