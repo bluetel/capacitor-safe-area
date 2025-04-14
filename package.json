@@ -9,7 +9,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorCommunitySafeArea.podspec"
+    "BluetelCapacitorSafeArea.podspec"
   ],
   "author": "",
   "license": "MIT",
