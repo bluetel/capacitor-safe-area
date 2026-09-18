@@ -1,6 +1,6 @@
 {
   "name": "@bluetel/capacitor-safe-area",
-  "version": "7.0.0-alpha.1",
+  "version": "8.0.0",
   "description": "Capacitor Plugin that exposes the safe area insets from the native iOS/Android device to your web project.",
   "main": "src/index.ts",
   "files": [
@@ -41,11 +41,11 @@
     "watch": "tsc --watch"
   },
   "devDependencies": {
-    "@capacitor/android": "^7.0.0",
-    "@capacitor/cli": "^7.0.0",
-    "@capacitor/core": "^7.0.0",
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
     "@capacitor/docgen": "^0.3.0",
-    "@capacitor/ios": "^7.0.0",
+    "@capacitor/ios": "^8.0.0",
     "@ionic/eslint-config": "^0.4.0",
     "@ionic/prettier-config": "^4.0.0",
     "@ionic/swiftlint-config": "^2.0.0",
