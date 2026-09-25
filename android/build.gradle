@@ -46,6 +46,13 @@ android {
     }
 }
 
+// Match Kotlin's bytecode target to compileOptions; Kotlin 2.x otherwise uses the running JDK
+tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+    compilerOptions {
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_21)
+    }
+}
+
 repositories {
     google()
     mavenCentral()
